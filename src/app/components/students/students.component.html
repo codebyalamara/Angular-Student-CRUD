@@ -8,6 +8,12 @@
 
       <div class="card shadow">
 
+        <div class="card-header bg-primary text-white text-center">
+      <h4 class="mb-0">
+        {{isInEditMode ? 'Update Student' : 'Add Student'}}
+      </h4>
+    </div>
+
         <div class="card-body">
 
           <div class="form-group">
@@ -74,14 +80,15 @@
 
     </div>
 
-    <!-- Table -->
+
+
     <div class="col-md-8">
 
       <div class="table-responsive mt-4 mt-md-0">
 
         <table class="table table-bordered text-white">
 
-          <thead>
+          <thead  class="table-head">
             <tr>
               <th>Sr No</th>
               <th>First Name</th>
