@@ -6,3 +6,4 @@ export interface Istd {
   contact: number;
   stdId: string;
 }
+

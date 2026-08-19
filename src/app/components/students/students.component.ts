@@ -66,7 +66,7 @@ export class StudentsComponent implements OnInit {
 
   onAdd() {
 
-// Validation for empty fields
+    // Validation for empty fields
     if (
       this.firstName.nativeElement.value.trim().length === 0 ||
       this.lastName.nativeElement.value.trim().length === 0 ||
@@ -78,7 +78,7 @@ export class StudentsComponent implements OnInit {
       return;
     }
 
-  // Validation for email format
+   // Validation for email format
     let email = this.email.nativeElement.value.trim();
     let emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     if (!emailRegex.test(email)) {
@@ -170,3 +170,15 @@ export class StudentsComponent implements OnInit {
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
